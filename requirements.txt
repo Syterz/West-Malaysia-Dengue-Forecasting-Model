@@ -1,0 +1,7 @@
+flask 
+xgboost 
+pandas 
+numpy
+requests
+openpyxl
+matplotlib
