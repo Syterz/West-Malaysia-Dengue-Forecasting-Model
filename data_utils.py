@@ -104,5 +104,3 @@ def construct_features_for_model(combined_df):
     df.drop(['WS2M','RH2M','PRECTOTCORR','T2M','roll_std_3'], axis=1, errors='ignore', inplace=True)
     df.dropna(inplace=True)
     return df
-
-
