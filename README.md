@@ -17,9 +17,13 @@ docker run -p 5000:5000 ghcr.io/syterz/west-malaysia-dengue-forecasting-model:la
 ## test (example request)
 curl "http://localhost:5000/forecast?district=A&horizon=1"
 
-## test in local host
+## test in local host status
 Run http://127.0.0.1:5000/healthz to check status (is it working or not)
+
+## Check forecasting
 http://127.0.0.1:5000/forecast to check future forecast
+
+## Check plot
 http://127.0.0.1:5000/plot to check for the plot
 
 # License
