@@ -8,7 +8,7 @@
 
 Run directly with the published Docker image:
 
-## pull image
+## pull image (You will need docker for this, downloaded through this website https://www.docker.com/products/docker-desktop/)
 docker pull ghcr.io/syterz/west-malaysia-dengue-forecasting-model:latest  
 
 ## run container
